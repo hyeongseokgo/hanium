@@ -5,8 +5,8 @@ from PIL import ImageFont, ImageDraw, Image
 import cv2
 import boto3
 
-ACCESS_KEY = "AKIA6GBMCU3ZOHVGSWNF"
-SECRET_KEY = "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"
+ACCESS_KEY = ""
+SECRET_KEY = ""
 REGION = "ap-northeast-2"
 
 client = boto3.client("rekognition", aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_KEY, region_name=REGION)

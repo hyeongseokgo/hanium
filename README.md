@@ -7,7 +7,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현** <br>
 기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;간 | `2024.04.01` ~ `2024.10.31`  (진행 중)<br>
 기술&nbsp;&nbsp;&nbsp;&nbsp;분야 |  SW, AI<br>
-팀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원 | 고형석, 유하영, 윤진영, 이의진<br>
+팀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원 | 고형석, 유하영, 윤진영<br>
 
 
 

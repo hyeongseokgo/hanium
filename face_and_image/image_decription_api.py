@@ -9,8 +9,7 @@ translator = Translator()
 
 # Hugging Face API URL과 헤더에 API 키를 포함
 API_URL = "https://api-inference.huggingface.co/models/Salesforce/blip-image-captioning-base"
-#headers = {"Authorization": f"Bearer mykey"}
-headers = {"Authorization": f"Bearer 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"}
+headers = {"Authorization": f"Bearer mykey"}
 
 # 이미지 파일을 바이너리 형식으로 읽어오는 함수
 def open_image(image_path):

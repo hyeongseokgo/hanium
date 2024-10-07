@@ -21,7 +21,7 @@ def lambda_handler(event, context):
         }
     
     try:
-        encoded_name = base64.urlsafe_b64encode(name.encode('utf-8')).decode('utf-8')
+        encoded_name = encoded_name = name.encode('utf-8').hex()
         response = rekognition.index_faces(
             CollectionId=collection_id,
             Image={

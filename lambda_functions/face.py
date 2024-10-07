@@ -47,7 +47,7 @@ def lambda_handler(event, context):
                 if response2['FaceMatches']:
                     match_face = response2['FaceMatches'][0]
                     name = match_face['Face']['ExternalImageId']
-                    name = base64.urlsafe_b64decode(name.encode('utf-8')).decode('utf-8')
+                    name = bytes.fromhex(name).decode('utf-8')
                     ans = f"{name}님의 얼굴이 감지되었어요\n"
             except Exception as e:
                 ans = f"{e}"

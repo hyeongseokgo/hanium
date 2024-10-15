@@ -1,5 +1,5 @@
 # 👀 장애인의 생활 불편 해소 AI 음성비서 서비스
-# AI Voice Assistant for Easing Disabilities
+AI Voice Assistant for Easing Disabilities
 ![24_PI009(발표자료) - 영상제거_page-0002](https://github.com/user-attachments/assets/5c0cac1b-4d78-4980-ac23-ed5406fe13ca)
 
 - 본 프로젝트는 2024년 프로보노 ICT멘토링으로 진행되는 프로젝트 입니다.<br><br>

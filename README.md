@@ -7,6 +7,8 @@
 기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;간 | `2024.04.01` ~ `2024.10.31` <br>
 팀&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원 | [고형석](https://github.com/hyeongseokgo), [유하영](https://github.com/Hayeonggg), [윤진영](https://github.com/jin7369)<br>
 
+## Demo
+[시연영상 보기](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
 
 
 

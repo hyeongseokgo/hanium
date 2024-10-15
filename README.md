@@ -24,7 +24,7 @@ The goal of this project is to support the independence of visually impaired ind
 
 ## Key Features
 - Object Recognition : 촬영된 사물에 대한 정확한 인식 및 정보 제공(Accurate recognition and information provision for captured objects)<br>
-- Face Recognition : 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정)(Provides information on captured faces (gender, estimated age, emotion))<br>
+- Face Recognition : 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정)(Provides information on captured faces(gender, estimated age, emotion))<br>
 - Text Recognition : 촬영된 문자를 인식하여 텍스트로 변환(Recognizes captured text and converts it into digital format)<br>
 - Sentence Generation : 사물 인식 결과를 문장으로 생성하여 출력(Generates and outputs sentences based on object recognition results)<br>
 - Face Storage : 촬영된 얼굴에 대한 정보와 이름을 매치하여 저장(Stores captured face information by matching it with a name)<br>

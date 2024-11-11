@@ -13,10 +13,11 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
                To implement a service that enables visually impaired individuals to live independently without inconvenience
 - Duration : `2024.04.01` ~ `2024.10.31`
 - Members
-  
-|[고형석](https://github.com/hyeongseokgo)|[유하영](https://github.com/Hayeonggg)|[윤진영](https://github.com/jin7369)|
+|Name|Role|
 |:---:|:---:|:---:|
-|Object Recognition, Face Recognition|Text Recognition, Sentence Generation|Speech Processing, App Development|
+|[고형석](https://github.com/hyeongseokgo)|Object Recognition, Face Recognition|
+|[유하영](https://github.com/Hayeonggg)|Text Recognition, Sentence Generation|
+|[윤진영](https://github.com/jin7369)|Speech Processing, App Development|
 
 <br><br>
 

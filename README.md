@@ -51,7 +51,7 @@ The goal of this project is to support the independence of visually impaired ind
 
 
 ## Demo
-[시연영상 보기](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+[시연영상 보기(Watch Demo Video)](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
 <br><br>
 
 ## System Architecture

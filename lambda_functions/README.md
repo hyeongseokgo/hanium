@@ -44,3 +44,48 @@
   "statusCode": 200,
   "body": "20~30세 정도의 남성이 행복한 표정을 하고있어요"
 }
+
+
+# Face Detection Lambda Function (face_check.py)
+
+이 AWS Lambda 함수는 Amazon Rekognition의 `detect_faces` 기능을 이용해 이미지에서 얼굴을 감지하고, 감지된 얼굴의 수를 반환한다. 이 함수는 base64로 인코딩된 이미지 데이터를 HTTP POST 요청을 통해 입력받으며, Rekognition을 사용해 얼굴이 몇 개 있는지 계산하여 반환한다.
+
+## 요구 사항
+
+이 함수를 사용하려면 다음이 필요하다:
+- AWS 계정
+- Amazon Rekognition 권한이 있는 IAM 사용자 또는 역할
+- AWS Lambda 및 API Gateway (함수 배포 및 엔드포인트 노출용)
+- Python 3.x 및 `boto3` 라이브러리
+
+## 설정
+
+1. **AWS 자격 증명 설정**: `face_check.py` 파일의 AWS 자격 증명을 자신의 환경에 맞게 설정한다.
+   - `ACCESS_KEY`: Rekognition 권한이 있는 AWS 액세스 키
+   - `SECRET_KEY`: AWS 비밀 액세스 키
+   - `REGION`: Rekognition 서비스가 설정된 AWS 리전
+
+2. **AWS 서비스 권한**: 이 Lambda 함수는 Rekognition 서비스를 호출할 수 있어야 하므로, Rekognition 권한이 포함된 IAM 역할을 Lambda 함수에 설정한다.
+
+## 코드 설명
+
+- **`lambda_handler` 함수**: 이미지 데이터를 받아 얼굴 감지 요청을 실행하고, 감지된 얼굴의 수를 반환하는 주요 함수다.
+
+### 주요 코드 섹션
+
+- **데이터 디코딩**: Lambda 함수가 base64로 인코딩된 데이터를 event에서 받아 이중 디코딩한다.
+- **얼굴 감지**: Rekognition의 `detect_faces` 메서드를 호출하여 이미지에서 얼굴을 감지하고, 감지된 얼굴의 개수를 반환한다.
+
+### 예시 요청 및 응답
+
+#### 요청 (Base64 인코딩 이미지)
+
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 기대한다.
+
+#### 응답 예시 (얼굴 수 감지)
+
+```json
+{
+  "statusCode": 200,
+  "body": "3"
+}

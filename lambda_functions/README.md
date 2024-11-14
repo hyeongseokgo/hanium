@@ -226,3 +226,50 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 음성 파일이 
   "audio": "<base64_encoded_audio_data>"
 }
 ```
+
+# 텍스트 음성 변환 Lambda 함수 (tts.py)
+
+이 Lambda 함수는 텍스트를 받아 Amazon Polly를 사용하여 음성으로 변환한 뒤, 결과 음성을 S3 버킷에 저장하고, 해당 음성 파일에 대한 URL을 반환하는 기능을 제공한다.
+
+## 요구 사항
+
+이 Lambda 함수를 사용하려면 다음이 필요하다:
+- Python 3.x
+- `boto3` 라이브러리 (AWS SDK)
+- S3 버킷
+- Amazon Polly 서비스 활성화
+
+## 설정
+
+1. **Amazon Polly**: Amazon Polly를 사용하여 텍스트를 음성으로 변환한다. `VoiceId` 파라미터로 `Seoyeon`을 설정하여 한국어 텍스트를 변환한다.
+   
+2. **S3 버킷**: Lambda 함수는 변환된 음성 파일을 S3 버킷에 업로드하며, 이 파일에 대한 URL을 생성하여 클라이언트에 반환한다. 함수에서 사용되는 버킷 이름 (`BUCKET_NAME`)은 사용자가 설정해야 한다.
+
+3. **IAM 역할**: Lambda 함수가 `polly.synthesizeSpeech` 및 `s3.putObject`, `s3.generate_presigned_url` API에 접근할 수 있도록 적절한 권한이 부여된 IAM 역할을 사용해야 한다.
+
+## 코드 설명
+
+- **텍스트를 음성으로 변환**: Lambda 함수는 `event`에서 받은 텍스트를 Amazon Polly의 `synthesize_speech` API를 통해 음성(mp3) 파일로 변환한다. 한국어 텍스트를 변환하려면 `VoiceId`로 `'Seoyeon'`을 사용한다.
+  
+- **S3에 음성 파일 업로드**: 변환된 음성 파일은 `audio_stream`으로 S3 버킷에 업로드된다. 이때 파일명은 현재 타임스탬프를 사용하여 생성된다.
+
+- **S3 URL 생성**: 업로드된 음성 파일에 대한 임시 URL을 생성하여 클라이언트에게 반환한다. 이 URL은 1시간 동안 유효하다.
+
+### 주요 코드 설명
+
+1. **텍스트 디코딩**: 클라이언트에서 POST 요청으로 전달된 base64로 인코딩된 텍스트 데이터를 디코딩하여 사용한다.
+   
+2. **음성 합성**: Amazon Polly API를 사용하여 주어진 텍스트를 음성(mp3) 파일로 변환한다. `VoiceId`로 `Seoyeon`을 사용하여 한국어 음성을 생성한다.
+
+3. **S3 업로드 및 URL 생성**: 변환된 음성 파일을 S3에 업로드하고, 생성된 URL을 반환한다. 이 URL은 일정 기간 동안 유효하며, 사용자가 음성 파일을 다운로드하거나 스트리밍할 수 있도록 한다.
+
+### 예시 요청 및 응답
+
+#### 요청
+
+Lambda 함수는 `event`의 `body`에 base64로 인코딩된 텍스트 데이터를 포함한 HTTP POST 요청을 기대한다.
+
+```json
+{
+  "body": "<base64_encoded_text>"
+}

@@ -185,3 +185,44 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포�
 }
 ```
 
+# 음성 인식 Lambda 함수 (transcribe.py)
+
+이 Lambda 함수는 음성 파일을 받아 Google Speech Recognition API를 사용하여 음성을 텍스트로 변환한다. 클라이언트로부터 base64로 인코딩된 음성 데이터를 HTTP POST 요청으로 받아, 이를 WAV 형식으로 변환 후 텍스트로 변환하여 반환한다.
+
+## 요구 사항
+
+이 Lambda 함수를 사용하려면 다음이 필요하다:
+- Python 3.x
+- `speechrecognition`, `pydub`, `boto3` 패키지
+- `ffmpeg` 및 `ffprobe` 바이너리 (Lambda 함수 실행 환경에 포함되어야 함)
+- AWS Lambda 및 API Gateway (함수 배포 및 엔드포인트 노출용)
+
+## 설정
+
+1. **음성 파일 포맷**: Lambda 함수는 `.3gp` 형식의 음성 파일을 받아 처리하며, 이를 WAV 형식으로 변환 후 인식한다. 다른 포맷을 사용하려면 코드에서 적절한 형식으로 수정이 필요하다.
+
+2. **`ffmpeg` 설정**: `pydub` 라이브러리는 `ffmpeg`를 사용하여 음성 파일을 처리한다. `ffmpeg`는 Lambda의 `/opt/bin/` 경로에 위치해야 한다.
+
+3. **AWS Lambda 배포**: Lambda 함수에서 `speechrecognition`, `pydub`, `boto3` 라이브러리와 `ffmpeg`, `ffprobe` 바이너리 파일을 포함하여 배포해야 한다. 이를 위해 Lambda 함수 배포 패키지에 필요한 라이브러리와 바이너리를 함께 포함시켜야 한다.
+
+## 코드 설명
+
+- **`lambda_handler` 함수**: 이 함수는 Lambda 이벤트에서 전달된 base64로 인코딩된 음성 파일을 처리하고, 이를 WAV 형식으로 변환 후 Google Speech Recognition API를 호출하여 음성을 텍스트로 변환한다.
+
+### 주요 코드 설명
+
+- **데이터 디코딩**: Lambda 함수는 `event`에서 전달된 base64로 인코딩된 음성 데이터를 받아 디코딩하고 `io.BytesIO` 객체로 변환하여 처리한다.
+- **음성 파일 변환**: `pydub.AudioSegment`를 사용하여 `.3gp` 형식의 음성 파일을 WAV 형식으로 변환한다.
+- **음성 인식**: `speechrecognition.Recognizer` 객체를 사용하여 Google Speech Recognition API로 음성을 텍스트로 변환한다.
+
+### 예시 요청 및 응답
+
+#### 요청 (Base64 인코딩 음성 파일)
+
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 음성 파일이 포함된 HTTP POST 요청을 기대한다.
+
+```json
+{
+  "audio": "<base64_encoded_audio_data>"
+}
+```

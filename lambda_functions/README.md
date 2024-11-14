@@ -41,11 +41,11 @@
 - **얼굴 매칭 (face.py에서만 사용)**: Rekognition 컬렉션의 `search_faces_by_image` 메서드를 통해 얼굴 매칭을 수행하여 인식된 인물 이름을 식별할 수 있다.
 - **현지화 (face.py에서만 사용)**: `eng_to_kor` 딕셔너리를 사용하여 영어 레이블을 한국어 레이블로 변환한다.
 
-## 예시 요청 및 응답
+## 예시 요청
 
-### 요청 (Base64 인코딩 이미지)
+ (Base64 인코딩 이미지)
 
-Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 기대한다.
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 받는다.
 
 ### 응답 예시
 
@@ -90,11 +90,11 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포�
 - **이름 인코딩**: 얼굴 데이터를 Rekognition 컬렉션에 저장하기 전에, UTF-8로 인코딩한 이름을 hex로 변환하여 `ExternalImageId`로 설정한다.
 - **얼굴 등록**: Rekognition의 `index_faces` 메서드를 사용해 컬렉션에 얼굴 데이터를 저장한다.
 
-### 예시 요청 및 응답
+### 예시 요청
 
-#### 요청 (Base64 인코딩 이미지 및 이름)
+# (Base64 인코딩 이미지 및 이름)
 
-Lambda 함수는 `body` 파라미터로 JSON 형식의 `image`와 `name` 데이터를 포함한 HTTP POST 요청을 기대한다.
+Lambda 함수는 `body` 파라미터로 JSON 형식의 `image`와 `name` 데이터를 포함한 HTTP POST 요청을 받는다.
 
 ```json
 {
@@ -132,11 +132,11 @@ Lambda 함수는 `body` 파라미터로 JSON 형식의 `image`와 `name` 데이�
 - **객체 감지**: `requests.post()` 메서드를 통해 객체 감지 API를 호출하고, API의 응답 JSON에서 `generated_text` 필드를 추출한다.
 - **번역**: Googletrans 라이브러리를 사용하여 객체 감지 결과를 한국어로 번역한다.
 
-### 예시 요청 및 응답
+### 예시 요청
 
-#### 요청 (Base64 인코딩 이미지)
+# (Base64 인코딩 이미지)
 
-Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 기대한다.
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 받는다.
 
 ```json
 {
@@ -173,11 +173,11 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포�
 - **Google Vision API 호출**: `vision.ImageAnnotatorClient()`를 사용하여 Google Cloud Vision API의 `document_text_detection` 메서드를 호출한다.
 - **텍스트 추출**: `response.full_text_annotation`을 통해 이미지 내의 문자를 추출하고, 이를 응답으로 반환한다.
 
-### 예시 요청 및 응답
+### 예시 요청
 
-#### 요청 (Base64 인코딩 이미지)
+# (Base64 인코딩 이미지)
 
-Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 기대한다.
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 받는다.
 
 ```json
 {
@@ -215,11 +215,11 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포�
 - **음성 파일 변환**: `pydub.AudioSegment`를 사용하여 `.3gp` 형식의 음성 파일을 WAV 형식으로 변환한다.
 - **음성 인식**: `speechrecognition.Recognizer` 객체를 사용하여 Google Speech Recognition API로 음성을 텍스트로 변환한다.
 
-### 예시 요청 및 응답
+### 예시 요청
 
-#### 요청 (Base64 인코딩 음성 파일)
+# (Base64 인코딩 음성 파일)
 
-Lambda 함수는 `body` 파라미터에 base64로 인코딩된 음성 파일이 포함된 HTTP POST 요청을 기대한다.
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 음성 파일이 포함된 HTTP POST 요청을 받는다.
 
 ```json
 {
@@ -263,11 +263,11 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 음성 파일이 
 
 3. **S3 업로드 및 URL 생성**: 변환된 음성 파일을 S3에 업로드하고, 생성된 URL을 반환한다. 이 URL은 일정 기간 동안 유효하며, 사용자가 음성 파일을 다운로드하거나 스트리밍할 수 있도록 한다.
 
-### 예시 요청 및 응답
+### 예시 요청
 
-#### 요청
+#
 
-Lambda 함수는 `event`의 `body`에 base64로 인코딩된 텍스트 데이터를 포함한 HTTP POST 요청을 기대한다.
+Lambda 함수는 `event`의 `body`에 base64로 인코딩된 텍스트 데이터를 포함한 HTTP POST 요청을 받는다.
 
 ```json
 {

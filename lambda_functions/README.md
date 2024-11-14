@@ -47,7 +47,7 @@
 
 Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 받는다.
 
-### 응답 예시
+### 
 
 #### face_check.py (얼굴 수 감지)
 

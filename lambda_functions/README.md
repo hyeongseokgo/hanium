@@ -142,5 +142,46 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포�
 {
   "image": "<base64_encoded_image_data>"
 }
+```
 
+# 문서 텍스트 감지 Lambda 함수 (text.py)
+
+이 Lambda 함수는 Google Cloud Vision API를 사용하여 이미지를 분석하고, 이미지 내의 문자를 추출하는 기능을 제공한다. 클라이언트로부터 base64로 인코딩된 이미지를 HTTP POST 요청으로 받아 Google Vision API의 `document_text_detection` 기능을 호출하여 문서를 감지하고, 그 결과를 반환한다.
+
+## 요구 사항
+
+이 Lambda 함수를 사용하려면 다음이 필요하다:
+- Google Cloud Vision API 활성화
+- Google Cloud 서비스 계정 키 (JSON 형식)
+- AWS Lambda 및 API Gateway (함수 배포 및 엔드포인트 노출용)
+- Python 3.x 및 `google-cloud-vision` 라이브러리
+
+## 설정
+
+1. **Google Cloud 서비스 계정 키**: Google Cloud의 Vision API를 사용하려면 서비스 계정 키를 생성하여 `GOOGLE_APPLICATION_CREDENTIALS` 환경 변수에 설정해야 한다.
+   - `GOOGLE_APPLICATION_CREDENTIALS`: Google Cloud Vision API를 호출할 때 사용할 서비스 계정 JSON 키 파일의 경로
+
+2. **AWS 환경 설정**: 이 Lambda 함수를 AWS에 배포하고, API Gateway를 통해 엔드포인트를 설정하여 HTTP POST 요청을 받을 수 있도록 한다.
+
+## 코드 설명
+
+- **`lambda_handler` 함수**: 이 함수는 클라이언트로부터 받은 base64로 인코딩된 이미지를 디코딩한 후, Google Cloud Vision API를 호출하여 문서 내 텍스트를 감지한다.
+
+### 주요 코드 설명
+
+- **데이터 디코딩**: Lambda 함수는 `event`에서 전달된 base64로 인코딩된 이미지 데이터를 받아 디코딩한다.
+- **Google Vision API 호출**: `vision.ImageAnnotatorClient()`를 사용하여 Google Cloud Vision API의 `document_text_detection` 메서드를 호출한다.
+- **텍스트 추출**: `response.full_text_annotation`을 통해 이미지 내의 문자를 추출하고, 이를 응답으로 반환한다.
+
+### 예시 요청 및 응답
+
+#### 요청 (Base64 인코딩 이미지)
+
+Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포함된 HTTP POST 요청을 기대한다.
+
+```json
+{
+  "image": "<base64_encoded_image_data>"
+}
+```
 

@@ -44,7 +44,7 @@
   "statusCode": 200,
   "body": "20~30세 정도의 남성이 행복한 표정을 하고있어요"
 }
-
+'''
 
 # Face Detection Lambda Function (face_check.py)
 
@@ -89,3 +89,4 @@ Lambda 함수는 `body` 파라미터에 base64로 인코딩된 이미지가 포�
   "statusCode": 200,
   "body": "3"
 }
+'''

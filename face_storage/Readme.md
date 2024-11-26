@@ -6,6 +6,11 @@
 
 ## 구현 방법 시나리오
 
-저장 기능을 실행하고 얼굴 사진을 입력하면 dlib의 face_recognition을 사용하여 해당 얼굴의 landmarks값을 추출한다.
-이 값을 해당 얼굴의 이름과 함께 pickle파일 형태로 저장한다.
-저장한 이후에는 얼굴인식 기능을 사용할때마다 저장되어 있는 얼굴 landmarks 값과 비교하여 일정 유사도 임계치를 넘기게 되면 저장되어 있는 이름과 같이 출력하게 된다.
+1. 저장 기능을 실행하고 얼굴 사진을 입력하면 dlib의 face_recognition을 사용하여 해당 얼굴의 landmarks값을 추출한다.
+2. 이 값을 해당 얼굴의 이름과 함께 pickle파일 형태로 저장한다.
+3. 저장한 이후에는 얼굴인식 기능을 사용할때마다 저장되어 있는 얼굴 landmarks 값과 비교하여 일정 유사도 임계치를 넘기게 되면 저장되어 있는 이름과 같이 출력하게 된다.
+
+
+## 예시
+![KakaoTalk_20241006_233154781_10](https://github.com/user-attachments/assets/a26a0a81-30bc-4362-bfd6-add5cc82d0dc)
+![KakaoTalk_20241006_233154781_11](https://github.com/user-attachments/assets/4a3def9d-2c3b-41b2-91d8-22c73fa032c5)

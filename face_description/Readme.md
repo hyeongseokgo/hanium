@@ -13,4 +13,5 @@
 - 각 모델은 따로 제작하거나 다른 프로젝트의 모델을 불러서 사용하였다.
 
 ## 예시
-![KakaoTalk_20241006_233154781_06](https://github.com/user-attachments/assets/a0c4e86d-2a90-43fb-9917-12366034385a)
+![KakaoTalk_20241006_233154781_06](https://github.com/user-attachments/assets/0d540f0a-f7a0-45cb-894e-7851ab862a25)
+

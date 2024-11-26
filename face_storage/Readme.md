@@ -12,5 +12,6 @@
 
 
 ## 예시
-![KakaoTalk_20241006_233154781_10](https://github.com/user-attachments/assets/a26a0a81-30bc-4362-bfd6-add5cc82d0dc)
-![KakaoTalk_20241006_233154781_11](https://github.com/user-attachments/assets/4a3def9d-2c3b-41b2-91d8-22c73fa032c5)
+![KakaoTalk_20241006_233154781_10](https://github.com/user-attachments/assets/57820aba-3efb-463b-a4d2-81a51a6da82f) ![KakaoTalk_20241006_233154781_11](https://github.com/user-attachments/assets/58caf2c6-7c96-4a9f-85fe-6a2747eaa463)
+
+

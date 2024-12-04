@@ -65,6 +65,14 @@ The goal of this project is to support the independence of visually impaired ind
 예시)
 - `text_recognition/` : 텍스트 인식
 - `text_recognition/text-recognition.py` : 텍스트 인식을 위한 api 불러오기
+- `lambda_functions/` : aws 람다 함수 모음
+- `lambda_functions/face.py` : 얼굴 인식
+- `lambda_functions/face_check.py` : 얼굴이 있는지 여부 확인
+- `lambda_functions/face_save.py` : 얼굴 저장 기능
+- `lambda_functions/object.py` : 사물 묘사 기능
+- `lambda_functions/text.py` : 텍스트 인식 기능
+- `lambda_functions/transcribe.py` : 음성을 텍스트로 변환 기능
+- `lambda_functions/tts.py`:tts기능
 
 
 

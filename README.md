@@ -60,7 +60,11 @@ The goal of this project is to support the independence of visually impaired ind
 
 <br><br>
 
-
+## 코드설명
+(여기다가 순차적으로 써주세요)
+예시)
+- `text_recognition/` : 텍스트 인식을 위한 api 불러오기
+- `text_recognition/`
 
 
 

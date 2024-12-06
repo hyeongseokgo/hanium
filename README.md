@@ -75,5 +75,11 @@ The goal of this project is to support the independence of visually impaired ind
 - `lambda_functions/tts.py`:tts기능
 
 
+## 앱 다운로드 방법
+1. LifEye_no_url.aia파일을 다운로드 합니다.
+2. 앱 인벤터에 접속하여 내 컴퓨터에서 프로젝트 불러오기를 합니다.
+3. 각 기능에 맞게 세팅된 url을 앱 인벤터에서 입력해 넣습니다.
+
+
 
 <br><br><br><br><br>

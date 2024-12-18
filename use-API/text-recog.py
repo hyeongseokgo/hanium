@@ -3,7 +3,7 @@ import io
 from google.cloud import vision
 
 # 환경 변수 설정: Google Cloud 인증 파일 경로 지정
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'C:\Users\RACS\pythonProject\test1-428102-b4723d05eff5.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'Your API'
 
 # 클라이언트 객체 생성
 client = vision.ImageAnnotatorClient()

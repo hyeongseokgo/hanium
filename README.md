@@ -79,10 +79,14 @@ The goal of this project is to support the independence of visually impaired ind
 resource
 └── data
 
-# 실행 가능한 python 스크립트를 보관하는 디렉토리
-run
-├── test.py
-└── train.py
+# AWS 람다 함수 모음
+lambda_functions
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+└── tts.py #tts기능
 
 # 학습에 사용될 커스텀 함수들을 보관하는 디렉토리
 src

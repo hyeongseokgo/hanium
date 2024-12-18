@@ -74,6 +74,22 @@ The goal of this project is to support the independence of visually impaired ind
 - `lambda_functions/transcribe.py` : 음성을 텍스트로 변환 기능
 - `lambda_functions/tts.py`:tts기능
 
+```
+# 학습에 필요한 리소스들을 보관하는 디렉토리
+resource
+└── data
+
+# 실행 가능한 python 스크립트를 보관하는 디렉토리
+run
+├── test.py
+└── train.py
+
+# 학습에 사용될 커스텀 함수들을 보관하는 디렉토리
+src
+├── data.py     # Custom Dataset
+└── utils.py
+```
+
 
 ## 앱 다운로드 방법
 1. LifEye_no_url.aia파일을 다운로드 합니다.

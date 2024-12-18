@@ -1,37 +1,3 @@
-## 코드설명
-(여기다가 순차적으로 써주세요)
-예시)
-- `text_recognition/` : 텍스트 인식
-- `text_recognition/text-recognition.py` : 텍스트 인식을 위한 api 불러오기
-- `lambda_functions/` : aws 람다 함수 모음
-- `lambda_functions/face.py` : 얼굴 인식
-- `lambda_functions/face_check.py` : 얼굴이 있는지 여부 확인
-- `lambda_functions/face_save.py` : 얼굴 저장 기능
-- `lambda_functions/object.py` : 사물 묘사 기능
-- `lambda_functions/text.py` : 텍스트 인식 기능
-- `lambda_functions/transcribe.py` : 음성을 텍스트로 변환 기능
-- `lambda_functions/tts.py`:tts기능
-
-```
-# 학습에 필요한 리소스들을 보관하는 디렉토리
-resource
-└── data
-
-# AWS 람다 함수 모음
-lambda_functions
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-└── tts.py #tts기능
-
-# 학습에 사용될 커스텀 함수들을 보관하는 디렉토리
-src
-├── data.py     # Custom Dataset
-└── utils.py
-```
-
 # 👀 장애인의 생활 불편 해소 AI 음성비서 서비스
 # 👀 AI Voice Assistant for Easing Disabilities
 ![24_PI009(발표자료) - 영상제거_page-0002](https://github.com/user-attachments/assets/5c0cac1b-4d78-4980-ac23-ed5406fe13ca)
@@ -94,6 +60,39 @@ The goal of this project is to support the independence of visually impaired ind
 
 <br><br>
 
+## 코드설명
+(여기다가 순차적으로 써주세요)
+예시)
+- `text_recognition/` : 텍스트 인식
+- `text_recognition/text-recognition.py` : 텍스트 인식을 위한 api 불러오기
+- `lambda_functions/` : aws 람다 함수 모음
+- `lambda_functions/face.py` : 얼굴 인식
+- `lambda_functions/face_check.py` : 얼굴이 있는지 여부 확인
+- `lambda_functions/face_save.py` : 얼굴 저장 기능
+- `lambda_functions/object.py` : 사물 묘사 기능
+- `lambda_functions/text.py` : 텍스트 인식 기능
+- `lambda_functions/transcribe.py` : 음성을 텍스트로 변환 기능
+- `lambda_functions/tts.py`:tts기능
+
+```
+# 학습에 필요한 리소스들을 보관하는 디렉토리
+resource
+└── data
+
+# AWS 람다 함수 모음
+lambda_functions
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+├── face.py #얼굴 인식
+└── tts.py #tts기능
+
+# 학습에 사용될 커스텀 함수들을 보관하는 디렉토리
+src
+├── data.py     # Custom Dataset
+└── utils.py
+```
 
 
 

@@ -50,6 +50,8 @@ The goal of this project is to support the independence of visually impaired ind
 
 ## Demo
 ▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+
+
 <br>
 
 

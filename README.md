@@ -7,8 +7,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
  
 - Project Name : <br>**ChatGPT 기반 장애인의 생활 불편 해소 AI 음성비서 서비스**
  (AI Voice Assistant Service Based on Chat GPT to Assist People with Disabilities)
-- Objective 
-  + **시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현**
+- Objective : <br>**시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현**
 (To implement a service that enables visually impaired individuals to live independently without inconvenience)
 - Duration : `2024.04.01` ~ `2024.10.31` <br>
 

@@ -10,8 +10,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
  (AI Voice Assistant Service Based on Chat GPT to Assist People with Disabilities)
 - Objective : **시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현**<br>
 (To implement a service that enables visually impaired individuals to live independently without inconvenience)
-- Duration <br> `2024.04.01` ~ `2024.10.31` <br>
-
+- Duration : `2024.04.01` ~ `2024.10.31` 
 - Members
 <br>[고형석](https://github.com/hyeongseokgo) : `Object Recognition`, `Face Recognition`
 <br>[유하영](https://github.com/Hayeonggg) : `Text Recognition`, `Sentence Generation`

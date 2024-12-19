@@ -17,8 +17,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 <br>[윤진영](https://github.com/jin7369) : `Speech Processing`, `App Development`
 
 
-<br><br>
-
+<br>
 
 ***
 
@@ -37,7 +36,7 @@ The goal of this project is to support the independence of visually impaired ind
 - Speech Processing <br> : 인식된 내용을 음성으로 변환하여 출력 (Converts recognized content into audio and outputs it)<br>
 
 
-
+<br>
 
 ## Demo Video
 ▶ [Click to Watch Our Full Demo Video!](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)

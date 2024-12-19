@@ -2,7 +2,7 @@
 ![그림1](https://github.com/user-attachments/assets/a5bcd201-0779-4ea3-a985-880a78aff180)
 
 
-본 프로젝트는 2024년 [프로보노 ICT멘토링](https://www.hanium.or.kr/portal/index.do)으로 진행되는 프로젝트 입니다.<br>
+본 프로젝트는 2024년 [프로보노 ICT멘토링](https://www.hanium.or.kr/portal/index.do)으로 진행된 프로젝트 입니다.<br>
 This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
  
 - Project Name : **ChatGPT 기반 장애인의 생활 불편 해소 AI 음성비서 서비스**
@@ -12,6 +12,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 - Duration : `2024.04.01` ~ `2024.10.31` <br>
 
 - Members
+-- [고형석](https://github.com/hyeongseokgo)|`Object Recognition`, `Face Recognition`
   
 |Name|Role|
 |:---:|:---:|

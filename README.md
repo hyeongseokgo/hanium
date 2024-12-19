@@ -1,5 +1,6 @@
 # 👀 장애인의 생활 불편 해소 AI 음성비서 서비스<br>(AI Voice Assistant for Easing Disabilities)
-![그림1](https://github.com/user-attachments/assets/a5bcd201-0779-4ea3-a985-880a78aff180)
+![썸네일](https://github.com/user-attachments/assets/74178716-1335-4c6d-a04c-72bbeb089335)
+
 
 
 본 프로젝트는 2024년 [프로보노 ICT멘토링](https://www.hanium.or.kr/portal/index.do)으로 진행된 프로젝트 입니다.<br>

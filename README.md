@@ -13,12 +13,8 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 
 - Members
 <br>[고형석](https://github.com/hyeongseokgo) : `Object Recognition`, `Face Recognition`
-  
-|Name|Role|
-|:---:|:---:|
-|[고형석](https://github.com/hyeongseokgo)|`Object Recognition`, `Face Recognition`|
-|[유하영](https://github.com/Hayeonggg)|`Text Recognition`, `Sentence Generation`|
-|[윤진영](https://github.com/jin7369)|`Speech Processing`, `App Development`|
+<br>[유하영](https://github.com/Hayeonggg) : `Text Recognition`, `Sentence Generation`
+<br>[윤진영](https://github.com/jin7369) : `Speech Processing`, `App Development`
 
 
 <br><br>
@@ -52,7 +48,8 @@ The goal of this project is to support the independence of visually impaired ind
 ## Demo
 ▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
 <br>
-![online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0412e828-f968-43ed-8b68-21bca587ebf5)
+![online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f6703a58-7ed7-4aa9-b400-307f099707a4)
+
 
 
 <br>

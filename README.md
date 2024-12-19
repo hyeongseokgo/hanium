@@ -30,17 +30,17 @@ The goal of this project is to support the independence of visually impaired ind
 
 
 ## Key Features
-- Object Recognition <br> 촬영된 사물에 대한 정확한 인식 및 정보 제공(Accurate recognition and information provision for captured objects)<br>
-- Face Recognition <br> 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정)(Provides information on captured faces(gender, estimated age, emotion))<br>
-- Text Recognition <br> 촬영된 문자를 인식하여 텍스트로 변환(Recognizes captured text and converts it into digital format)<br>
-- Sentence Generation <br> 사물 인식 결과를 문장으로 생성하여 출력(Generates and outputs sentences based on object recognition results)<br>
-- Face Storage <br> 촬영된 얼굴에 대한 정보와 이름을 매치하여 저장(Stores captured face information by matching it with a name)<br>
-- Speech Processing <br> 인식된 내용을 음성으로 변환하여 출력(Converts recognized content into audio and outputs it)<br>
+- Object Recognition <br> 촬영된 사물에 대한 정확한 인식 및 정보 제공 (Accurate recognition and information provision for captured objects)<br>
+- Face Recognition <br> 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정) (Provides information on captured faces(gender, estimated age, emotion))<br>
+- Text Recognition <br> 촬영된 문자를 인식하여 텍스트로 변환 (Recognizes captured text and converts it into digital format)<br>
+- Sentence Generation <br> 사물 인식 결과를 문장으로 생성하여 출력 (Generates and outputs sentences based on object recognition results)<br>
+- Face Storage <br> 촬영된 얼굴에 대한 정보와 이름을 매치하여 저장 (Stores captured face information by matching it with a name)<br>
+- Speech Processing <br> 인식된 내용을 음성으로 변환하여 출력 (Converts recognized content into audio and outputs it)<br>
 
 
 
 
-## Demo
+## Demo Video
 ▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
 <br>
 ![online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f6703a58-7ed7-4aa9-b400-307f099707a4)
@@ -50,10 +50,7 @@ The goal of this project is to support the independence of visually impaired ind
 <br>
 
 
-<br><br>
 
-## System Architecture
-![그림1](https://github.com/user-attachments/assets/f79c73a4-6e6c-4771-bf3a-a840064b2df4)
 
 
 <br><br>
@@ -94,13 +91,22 @@ App_Inventor
 ```
 
 
-
 ## How to Launch Our App
 1. Download the `LifEye_no_url.aia` file.
 2. Access **App Inventor** and import the project from your computer.
 3. Enter the URLs set for each function in App Inventor.
 
+___
+# 설계 방향
+## System Architecture
+![그림1](https://github.com/user-attachments/assets/f79c73a4-6e6c-4771-bf3a-a840064b2df4)
+
 ## Reference
 huggingface/transformers (https://github.com/huggingface/transformers)
+
+
+<br><br>
+
+
 
 <br><br><br><br><br>

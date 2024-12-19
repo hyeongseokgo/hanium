@@ -68,7 +68,7 @@ text_recognition
 
 # AWS Lambda functions
 App_Inventor
-  ├── lambda_functions  # AWS Lambda functions
+  ├── lambda_functions     # AWS Lambda functions
   │    ├── face.py         # 얼굴 인식
   │    ├── face_check.py   # 얼굴 존재 여부 확인
   │    ├── face_save.py    # 얼굴 저장
@@ -76,7 +76,7 @@ App_Inventor
   │    ├── text.py         # 텍스트 인식
   │    ├── transcribe.py   # 음성->텍스트 변환
   │    └── tts.py          # tts
-  └── LifEye_no_url.aia # App Inventor project file
+  └── LifEye_no_url.aia    # App Inventor project file
 ```
 
 

@@ -1,5 +1,6 @@
 # 👀 장애인의 생활 불편 해소 AI 음성비서 서비스<br>(AI Voice Assistant for Easing Disabilities)
-![alt text](그림1.png)
+![그림1](https://github.com/user-attachments/assets/a5bcd201-0779-4ea3-a985-880a78aff180)
+
 
 본 프로젝트는 2024년 [프로보노 ICT멘토링](https://www.hanium.or.kr/portal/index.do)으로 진행되는 프로젝트 입니다.<br>
 This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
@@ -51,7 +52,7 @@ The goal of this project is to support the independence of visually impaired ind
 ▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
 <br>
 
-![alt text](online-video-cutter.com-ezgif.com-video-to-gif-converter.gif)
+
 <br><br>
 
 ## System Architecture

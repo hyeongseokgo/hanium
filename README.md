@@ -50,6 +50,7 @@ The goal of this project is to support the independence of visually impaired ind
 
 ## Demo
 ▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+![online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/0412e828-f968-43ed-8b68-21bca587ebf5)
 
 
 <br>

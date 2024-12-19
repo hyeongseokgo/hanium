@@ -40,19 +40,13 @@ The goal of this project is to support the independence of visually impaired ind
 
 
 ## Demo Video
-▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
-<br>
+▶ [Click to Watch Our Full Demo Video!](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+<br><br>
 ![online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/f6703a58-7ed7-4aa9-b400-307f099707a4)
 
 
-
 <br>
 
-
-
-
-
-<br><br>
 
 ## Folder structure
 ```

@@ -16,9 +16,6 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 <br>[유하영](https://github.com/Hayeonggg) : `Text Recognition`, `Sentence Generation`
 <br>[윤진영](https://github.com/jin7369) : `Speech Processing`, `App Development`
 
-
-<br>
-
 ***
 
 ## Introduction

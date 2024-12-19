@@ -1,5 +1,4 @@
-# 👀 AI Voice Assistant for Easing Disabilities <br>
-(장애인의 생활 불편 해소 AI 음성비서 서비스)
+# 👀 AI Voice Assistant for Easing Disabilities <br> (장애인의 생활 불편 해소 AI 음성비서 서비스)
 ![썸네일](https://github.com/user-attachments/assets/74178716-1335-4c6d-a04c-72bbeb089335)
 
 

@@ -1,16 +1,13 @@
-# 👀 장애인의 생활 불편 해소 AI 음성비서 서비스
-# 👀 AI Voice Assistant for Easing Disabilities
-![24_PI009(발표자료) - 영상제거_page-0002](https://github.com/user-attachments/assets/5c0cac1b-4d78-4980-ac23-ed5406fe13ca)
+# 👀 장애인의 생활 불편 해소 AI 음성비서 서비스<br>(AI Voice Assistant for Easing Disabilities)
+![alt text](그림1.png)
 
 본 프로젝트는 2024년 [프로보노 ICT멘토링](https://www.hanium.or.kr/portal/index.do)으로 진행되는 프로젝트 입니다.<br>
 This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
  
-- Project Name : **ChatGPT 기반 장애인의 생활 불편 해소 AI 음성비서 서비스**<br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                AI Voice Assistant Service Based on Chat GPT to Assist People with Disabilities
-- Objective : **시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현** <br>
-               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               To implement a service that enables visually impaired individuals to live independently without inconvenience
+- Project Name : **ChatGPT 기반 장애인의 생활 불편 해소 AI 음성비서 서비스**
+ (AI Voice Assistant Service Based on Chat GPT to Assist People with Disabilities)
+- Objective : **시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현**
+(To implement a service that enables visually impaired individuals to live independently without inconvenience)
 - Duration : `2024.04.01` ~ `2024.10.31` <br>
 
 - Members
@@ -51,7 +48,10 @@ The goal of this project is to support the independence of visually impaired ind
 
 
 ## Demo
-[시연영상 보기(Watch Demo Video)](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+▶ [Full Demo Video](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+<br>
+
+![alt text](online-video-cutter.com-ezgif.com-video-to-gif-converter.gif)
 <br><br>
 
 ## System Architecture
@@ -60,47 +60,49 @@ The goal of this project is to support the independence of visually impaired ind
 
 <br><br>
 
-## 코드설명
-(여기다가 순차적으로 써주세요)
-예시)
-- `text_recognition/` : 텍스트 인식
-- `text_recognition/text-recognition.py` : 텍스트 인식을 위한 api 불러오기
-- `lambda_functions/` : aws 람다 함수 모음
-- `lambda_functions/face.py` : 얼굴 인식
-- `lambda_functions/face_check.py` : 얼굴이 있는지 여부 확인
-- `lambda_functions/face_save.py` : 얼굴 저장 기능
-- `lambda_functions/object.py` : 사물 묘사 기능
-- `lambda_functions/text.py` : 텍스트 인식 기능
-- `lambda_functions/transcribe.py` : 음성을 텍스트로 변환 기능
-- `lambda_functions/tts.py`:tts기능
-
+## Folder structure
 ```
-# 학습에 필요한 리소스들을 보관하는 디렉토리
-resource
-└── data
+# Documents
+Docs                # 보고서 파일
+└── ...
 
-# AWS 람다 함수 모음
-lambda_functions
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-├── face.py #얼굴 인식
-└── tts.py #tts기능
+# Face Recognition
+face_recognition
+├── img             # 예시 이미지
+└── face_recog      # 얼굴 이미지 묘사 
 
-# 학습에 사용될 커스텀 함수들을 보관하는 디렉토리
-src
-├── data.py     # Custom Dataset
-└── utils.py
+# Face Storage
+face_storage
+├── img             # 예시 이미지
+└── face_save       # 얼굴 이미지 묘사 
+
+# Text Recognition
+text_recognition
+├── img             # 예시 이미지
+└── text_recog      # OCR 이미지-텍스트 변환
+
+
+# AWS Lambda functions
+App_Inventor
+  ├── lambda_functions  # AWS Lambda functions
+  │    ├── face.py         # 얼굴 인식
+  │    ├── face_check.py   # 얼굴 존재 여부 확인
+  │    ├── face_save.py    # 얼굴 저장
+  │    ├── object.py       # 사물 묘사
+  │    ├── text.py         # 텍스트 인식
+  │    ├── transcribe.py   # 음성->텍스트 변환
+  │    └── tts.py          # tts
+  └── LifEye_no_url.aia # App Inventor project file
 ```
 
 
 
-## 앱 다운로드 방법
-1. LifEye_no_url.aia파일을 다운로드 합니다.
-2. 앱 인벤터에 접속하여 내 컴퓨터에서 프로젝트 불러오기를 합니다.
-3. 각 기능에 맞게 세팅된 url을 앱 인벤터에서 입력해 넣습니다.
+## How to Launch Our App
+1. Download the `LifEye_no_url.aia` file.
+2. Access **App Inventor** and import the project from your computer.
+3. Enter the URLs set for each function in App Inventor.
 
-
+## Reference
+huggingface/transformers (https://github.com/huggingface/transformers)
 
 <br><br><br><br><br>

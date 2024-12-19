@@ -1,4 +1,5 @@
-# 👀 장애인의 생활 불편 해소 AI 음성비서 서비스<br>(AI Voice Assistant for Easing Disabilities)
+# 👀 AI Voice Assistant for Easing Disabilities <br>
+(장애인의 생활 불편 해소 AI 음성비서 서비스)
 ![썸네일](https://github.com/user-attachments/assets/74178716-1335-4c6d-a04c-72bbeb089335)
 
 
@@ -84,6 +85,8 @@ App_Inventor
 1. Download the `LifEye_no_url.aia` file.
 2. Access **App Inventor** and import the project from your computer.
 3. Enter the URLs set for each function in App Inventor.
+
+<br>
 
 ___
 # 설계 방향

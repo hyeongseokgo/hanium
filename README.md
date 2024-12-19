@@ -11,7 +11,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 (To implement a service that enables visually impaired individuals to live independently without inconvenience)
 - Duration : `2024.04.01` ~ `2024.10.31` <br>
 
-- Members<br>
+- Members
   + [고형석](https://github.com/hyeongseokgo) : `Object Recognition`, `Face Recognition`
   
 |Name|Role|

@@ -12,7 +12,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 - Duration : `2024.04.01` ~ `2024.10.31` <br>
 
 - Members<br>
-+ [고형석](https://github.com/hyeongseokgo) : `Object Recognition`, `Face Recognition`
+  + [고형석](https://github.com/hyeongseokgo) : `Object Recognition`, `Face Recognition`
   
 |Name|Role|
 |:---:|:---:|

@@ -7,7 +7,8 @@
 This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
  
 - Project Name  <br>**ChatGPT 기반 장애인의 생활 불편 해소 AI 음성비서 서비스**<br>
- (AI Voice Assistant Service Based on Chat GPT to Assist People with Disabilities)- Objective  <br>**시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현**<br>
+ (AI Voice Assistant Service Based on Chat GPT to Assist People with Disabilities)
+- Objective  <br>**시각장애인 혼자서도 불편함 없이 생활할 수 있는 서비스 구현**<br>
 (To implement a service that enables visually impaired individuals to live independently without inconvenience)
 - Duration <br> `2024.04.01` ~ `2024.10.31` <br>
 
@@ -29,8 +30,8 @@ The goal of this project is to support the independence of visually impaired ind
 
 
 ## Key Features
-- Object Recognition : 촬영된 사물에 대한 정확한 인식 및 정보 제공<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Accurate recognition and information provision for captured objects<br>
+- Object Recognition<br>촬영된 사물에 대한 정확한 인식 및 정보 제공<br>
+<br>Accurate recognition and information provision for captured objects<br>
 - Face Recognition : 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Provides information on captured faces(gender, estimated age, emotion)<br>
 - Text Recognition : 촬영된 문자를 인식하여 텍스트로 변환<br>

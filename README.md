@@ -13,7 +13,7 @@ This project is part of the 2024 Pro Bono ICT Mentoring program.<br><br>
 - Duration : `2024.04.01` ~ `2024.10.31` 
 - Members
 <br>[고형석](https://github.com/hyeongseokgo) : `Object Recognition`, `Face Recognition`
-<br>[유하영](https://github.com/Hayeonggg) : `Text Recognition`, `Sentence Generation`
+<br>[유하영](https://github.com/Hayeonggg) : `Text Recognition`, `Text Generation`
 <br>[윤진영](https://github.com/jin7369) : `Speech Processing`, `App Development`
 
 ***

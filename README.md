@@ -87,6 +87,9 @@ App_Inventor
 
 <br>
 
+## How was the internal structure built?
+▶ [Please refer to this page](https://youtu.be/qjB4XeM9WYE?si=yhnpIZsHjzvN_7i6)
+
 ___
 ## Reference
 huggingface/transformers (https://github.com/huggingface/transformers)

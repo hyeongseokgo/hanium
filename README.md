@@ -25,12 +25,12 @@ The goal of this project is to support the independence of visually impaired ind
 
 
 ## Key Features
-- Object Recognition <br> : 촬영된 사물에 대한 정확한 인식 및 정보 제공 (Accurate recognition and information provision for captured objects)<br>
-- Face Recognition <br> : 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정) (Provides information on captured faces(gender, estimated age, emotion))<br>
-- Text Recognition <br> : 촬영된 문자를 인식하여 텍스트로 변환 (Recognizes captured text and converts it into digital format)<br>
-- Sentence Generation <br> : 사물 인식 결과를 문장으로 생성하여 출력 (Generates and outputs sentences based on object recognition results)<br>
-- Face Storage <br> : 촬영된 얼굴에 대한 정보와 이름을 매치하여 저장 (Stores captured face information by matching it with a name)<br>
-- Speech Processing <br> : 인식된 내용을 음성으로 변환하여 출력 (Converts recognized content into audio and outputs it)<br>
+- Object Recognition <br> : 촬영된 사물에 대한 정확한 인식 및 정보 제공<br> (Accurate recognition and information provision for captured objects)<br>
+- Face Recognition <br> : 촬영된 얼굴에 대한 정보 제공(성별, 추정나이, 감정)<br> (Provides information on captured faces(gender, estimated age, emotion))<br>
+- Text Recognition <br> : 촬영된 문자를 인식하여 텍스트로 변환<br> (Recognizes captured text and converts it into digital format)<br>
+- Sentence Generation <br> : 사물 인식 결과를 문장으로 생성하여 출력<br> (Generates and outputs sentences based on object recognition results)<br>
+- Face Storage <br> : 촬영된 얼굴에 대한 정보와 이름을 매치하여 저장<br> (Stores captured face information by matching it with a name)<br>
+- Speech Processing <br> : 인식된 내용을 음성으로 변환하여 출력<br> (Converts recognized content into audio and outputs it)<br>
 
 
 <br>
@@ -88,10 +88,6 @@ App_Inventor
 <br>
 
 ___
-# 설계 방향
-## System Architecture
-![그림1](https://github.com/user-attachments/assets/f79c73a4-6e6c-4771-bf3a-a840064b2df4)
-
 ## Reference
 huggingface/transformers (https://github.com/huggingface/transformers)
 
